@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posts</title>
+    <style>
+        body {
+            background-color: #000000; /* Black background */
+            color: #C0C0C0; /* Light gray text color */
+            font-family: 'Courier New', Courier, monospace; /* Monospace font */
+            margin: 0;
+            padding: 20px;
+        }
+       
+        h1, h2, h3 {
+            color: #FFFFFF; /* White color for headings */
+        }
+
+        a {
+            color: inherit; /* Inherit color from parent */
+            text-decoration: none;
+            font-family: inherit; /* Inherit font from parent */
+            font-size: inherit; /* Inherit font size from parent */
+            font-weight: inherit; /* Inherit font weight from parent */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Optional: Cursor effect */
+        .cursor {
+            display: inline-block;
+            background-color: #C0C0C0;
+            width: 8px;
+            height: 18px;
+            animation: blink 1s infinite;
+            vertical-align: bottom;
+            margin-left: 2px;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* Terminal-like prompt */
+        .prompt::before {
+            content: "$ ";
+            color: #00FF00;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 30px;
+        }
+
+        /* Scrollbar styling (optional) */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #333;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #666;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #888;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html">main</a>
+        <a href="about.html">About</a>
+        <a href="things-ive-done.html">Things I've Done</a>
+        <a href="contrarian-takes.html">Contrarian takes daily</a>
+        <a href="posts.html">Posts</a>
+        <a href="compsci.html">Computers infinitely large napkin</a>
+    </div>
+    <h1>Posts</h1>
+    <!-- Rest of your body content -->
+    <p class="prompt">Shitposting page.</p>
+
+    
+
+    <div class="cursor"></div>
+</body>
+</html>
+
