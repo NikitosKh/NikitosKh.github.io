@@ -1,2 +1,2 @@
-# NikitosKh.github.io
-math facts
+my small website
+
